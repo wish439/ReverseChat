@@ -9,13 +9,13 @@ name: Java CI with Gradle
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
     paths:
       - .github/workflows/gradle.yml
       - src/**
       - pom.xml
   pull_request:
-    branches: [ "main" ]
+    branches: [ "master" ]
     paths:
       - .github/workflows/gradle.yml
       - src/**
