@@ -8,6 +8,18 @@
 name: Java CI with Gradle
 
 on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - .github/workflows/maven.yml
+      - src/**
+      - pom.xml
+  pull_request:
+    branches: [ "main" ]
+    paths:
+      - .github/workflows/maven.yml
+      - src/**
+      - pom.xml
   
 
 jobs:
