@@ -1,0 +1,4 @@
+name: ReverseChat
+version: '1.0'
+main: org.wishtoday.ps.reverseChat.ReverseChat
+api-version: '1.21'
